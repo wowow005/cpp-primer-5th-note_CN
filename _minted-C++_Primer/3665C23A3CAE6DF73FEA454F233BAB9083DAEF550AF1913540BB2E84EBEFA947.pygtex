@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{while}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{condition}\PYG{p}{)}
+\PYG{+w}{  }\PYG{n}{statement}
+\end{Verbatim}

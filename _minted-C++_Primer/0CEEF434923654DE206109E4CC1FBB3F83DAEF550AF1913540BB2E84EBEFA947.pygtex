@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{sum}\PYG{+w}{ }\PYG{o}{+=}\PYG{+w}{ }\PYG{n}{val}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{// 将 sum + val 赋予 sum}
+\PYG{+w}{    }\PYG{o}{++}\PYG{n}{val}\PYG{p}{;}\PYG{+w}{      }\PYG{c+c1}{// 将 val 加 1}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

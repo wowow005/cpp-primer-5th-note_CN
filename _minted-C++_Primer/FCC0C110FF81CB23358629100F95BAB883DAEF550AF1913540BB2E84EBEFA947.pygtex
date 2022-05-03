@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{// /*}
+\PYG{c+c1}{// * 单行注释中的任何内容都会被忽略}
+\PYG{c+c1}{// * 包括嵌套的注释对也一样会被忽略}
+\PYG{c+c1}{// */}
+\end{Verbatim}
