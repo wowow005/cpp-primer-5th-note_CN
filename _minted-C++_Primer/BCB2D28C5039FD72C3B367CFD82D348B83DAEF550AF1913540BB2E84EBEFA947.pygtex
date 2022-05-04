@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{extern}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{i}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{// 声明 i 而非定义 i}
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{j}\PYG{p}{;}\PYG{+w}{        }\PYG{c+c1}{// 声明并定义 j}
+\end{Verbatim}

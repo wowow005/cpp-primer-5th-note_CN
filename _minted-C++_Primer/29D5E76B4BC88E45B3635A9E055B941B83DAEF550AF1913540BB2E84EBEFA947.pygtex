@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kt}{long}\PYG{+w}{ }\PYG{k+kt}{double}\PYG{+w}{ }\PYG{n}{ld}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{3.1415926536}\PYG{p}{;}
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{a}\PYG{p}{\PYGZob{}}\PYG{n}{ld}\PYG{p}{\PYGZcb{},}\PYG{+w}{ }\PYG{n}{b}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{n}{ld}\PYG{p}{\PYGZcb{};}\PYG{+w}{ }\PYG{c+c1}{// 错误: 转换未执行, 因为存在丢失信息的危险}
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n+nf}{c}\PYG{p}{(}\PYG{n}{ld}\PYG{p}{),}\PYG{+w}{ }\PYG{n}{d}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{ld}\PYG{p}{;}\PYG{+w}{   }\PYG{c+c1}{// 正确: 转换执行, 确实丢失了部分值}
+\end{Verbatim}

@@ -272,3 +272,109 @@ int main () {
 *** 1.5.1 节练习
 
 **** 练习 1.20
+
+#+begin_src cpp
+#include <iostream>
+#include "Sales_item.h"
+
+int main() {
+  Sales_item item;
+  while (std::cin >> item)
+    std::cout << item << std::endl;
+
+  return 0;
+}
+#+end_src
+
+**** 练习 1.21
+
+#+begin_src cpp
+#include <iostream>
+#include "Sales_item.h"
+
+int main () {
+  Sales_item item1, item2 = 0;
+  while (std::cin >> item1 >> item2)
+    std::cout << item1 + item2 << std::endl;
+
+  return 0;
+}
+#+end_src
+
+**** 练习 1.22
+
+#+begin_src cpp
+#include <iostream>
+#include "Sales_item.h"
+
+int main() {
+  Sales_item total, item;
+  if (std::cin >> total) {
+    while (std::cin >> item)
+      total += item;
+    std::cout << total << std::endl;
+  }
+
+  return 0;
+}
+#+end_src
+
+*** 1.5.2 节
+
+**** 练习 1.23
+
+#+begin_src cpp
+#include <iostream>
+#include "Sales_item.h"
+
+int main () {
+  Sales_item curItem, item;
+  if (std::cin >> curItem) {
+    int cnt = 1;
+    while (std::cin >> item) {
+      if (item.isbn() == curItem.isbn())
+        ++cnt;
+      else {
+        std::cout << curItem.isbn() << " " << cnt << std::endl;
+        curItem = item;
+        cnt = 1;
+      }
+    }
+    std::cout << curItem.isbn() << " " << cnt << std::endl;
+  }
+  return 0;
+}
+#+end_src
+
+**** 练习 1.24
+
+测试 1.23 即可
+
+** 1.6 节练习
+
+*** 练习 1.25
+
+#+begin_src cpp
+#include <iostream>
+#include "Sales_item.h"
+
+int main() {
+  Sales_item total;
+  if (std::cin >> total) {
+    Sales_item trans;
+    while (std::cin >> trans) {
+      if (total.isbn() == trans.isbn())
+        total += trans;
+      else {
+        std::cout << total << std::endl;
+        total = trans;
+      }
+    }
+    std::cout << total << std::endl;
+  } else {
+    std::cerr << "No data!" << std::endl;
+    return -1;
+  }
+  return 0;
+}
+#+end_src
