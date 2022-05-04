@@ -1,5 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{k+kt}{double}\PYG{+w}{ }\PYG{n}{price}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{109.99}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{discount}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{price}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{l+m+mf}{0.16}\PYG{p}{;}
-
-\PYG{k+kt}{double}\PYG{+w}{ }\PYG{n}{salePrice}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{applyDiscount}\PYG{p}{(}\PYG{n}{price}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{discount}\PYG{p}{);}
-\end{Verbatim}

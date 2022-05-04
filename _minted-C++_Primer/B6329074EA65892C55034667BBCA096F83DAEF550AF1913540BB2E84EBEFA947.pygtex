@@ -1,7 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{l+s+sa}{L}\PYG{l+s+sc}{\PYGZsq{}a\PYGZsq{}}\PYG{+w}{    }\PYG{c+c1}{// 宽字符型字面值, 类型是 wchar\PYGZus{}t}
-\PYG{l+s+sa}{u8}\PYG{l+s}{\PYGZdq{}hi!\PYGZdq{}}\PYG{+w}{ }\PYG{c+c1}{// utf\PYGZhy{}8 字符串字面值}
-\PYG{l+m+mi}{42ULL}\PYG{+w}{ }\PYG{c+c1}{// 无符号整型字面值, 类型是 unsigned long long}
-\PYG{l+m+mf}{1E\PYGZhy{}3F}\PYG{+w}{ }\PYG{c+c1}{// 单精度浮点型字面值, 类型是 float}
-\PYG{l+m+mf}{3.14159L}\PYG{+w}{ }\PYG{c+c1}{// 拓展精度浮点型字面值, 类型是 long double}
-\end{Verbatim}

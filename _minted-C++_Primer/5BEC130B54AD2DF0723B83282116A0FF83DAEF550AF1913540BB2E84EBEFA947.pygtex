@@ -1,5 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{l+m+mi}{20}\PYG{+w}{   }\PYG{c+c1}{// 十进制}
-\PYG{l+m+mo}{024}\PYG{+w}{  }\PYG{c+c1}{// 八进制}
-\PYG{l+m+mh}{0x14}\PYG{+w}{ }\PYG{c+c1}{// 十六进制}
-\end{Verbatim}

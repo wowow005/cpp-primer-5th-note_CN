@@ -1,8 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{c+c1}{// 双斜线注释常用于半行和单行附注.}
-
-\PYG{c+cm}{/* 界定注释符}
-\PYG{c+cm}{   通常用于}
-\PYG{c+cm}{   多行注释}
-\PYG{c+cm}{*/}
-\end{Verbatim}
